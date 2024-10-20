@@ -1,0 +1,77 @@
+.header {  
+    
+    background-image: url("https://renanferreiragtr.com.br/wp-content/uploads/2024/08/Design-sem-nome1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlaybg {
+    background-color: rgba(36, 33, 37, 0.8);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.headertext {
+    padding-top: 120px;
+    width: 1100px;
+}
+
+.bgTitle {
+    font-size: 35px;
+    background-color: rgb(28, 202, 216);
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 0px 15px 0px 15px;
+    color:#ffffff;
+    border-radius: 6px;
+}
+
+.secTitle {
+    font-size: 40px;
+    display: table;
+    margin: 0px auto 0px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#ffffff;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.callVideo {
+    font-size: 35px;
+    color: #ffffff;
+    margin: 0px auto 0px auto;
+}
+
+.svgHeader {
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.singButton {
+    font-size: 30px;
+    background-color: rgb(28, 202, 216);
+    display: table;
+    margin: 10px auto 0px auto;
+    color:#ffffff;
+    border-radius: 6px;
+    padding: 0px 200px 0px 200px;
+    transition: all 0.3s ease-in-out;
+}
+.singButton:hover{
+    transform: scale(1.1);
+}
+
+.noStyle{
+    all: unset;
+}
+
+.sngBtn {
+    padding-bottom: 40px;
+}
