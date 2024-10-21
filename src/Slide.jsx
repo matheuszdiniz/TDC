@@ -67,8 +67,7 @@ function App() {
           {imagesN.map( (item) => (
             <SwiperSlide key={item}>
               <img 
-              src="src/assets/1.webp"
-              alt="imagem"
+              src="https://renanferreiragtr.com.br/wp-content/webp-express/webp-images/uploads/elementor/thumbs/20_Easy-Resize.com_-qnmhppgxj84cluwsfokezjmxotklp5sgen47tf47ds.jpg.webp"
               className="slide-item"
               />
               <div className='overlay'></div>

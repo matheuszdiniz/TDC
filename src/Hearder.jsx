@@ -2,7 +2,7 @@ import './Header.css'
 
 function App() {
     return (
-        <div className='header'>
+        <header className='header'>
             <div className='overlaybg'>
                 <div className='headertext'>
                     <h1 className='bgTitle'>Treinamento Desconstruindo Para Construir</h1>
@@ -26,7 +26,7 @@ function App() {
                     </a>
                 </div> 
             </div>    
-        </div>
+        </header>
     )
 }
 
