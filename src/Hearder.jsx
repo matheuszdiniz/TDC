@@ -18,7 +18,7 @@ function App() {
                     </a>
                 </div>
                 <div id='openVideo'>
-                    <iframe width="1283" height="722" src="https://www.youtube.com/embed/0azInq4cNFo" title="Introdução TDC Plus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/0azInq4cNFo" title="Introdução TDC Plus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div className='sngBtn'>
                     <a href="https://pay.kiwify.com.br/AB8NNzJ" className='noStyle'>
