@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1 className='h1Header'>Dá uma olhada no conteúdo que irá transformar sua forma de <span>tocar guitarra</span></h1>
+      <h1 className='h1Header'>Dá uma olhada no conteúdo que irá transformar sua forma de <span>TOCAR GUITARRA</span></h1>
       <h2 className='h2Header'>São 3 cursos dentro do treinamento, planejado minuciosamente em ordem cronológica, para guitarristas que buscam liberdade na hora de se expressar com a guitarra.</h2>
       <Swiper
         slidesPerView={slidePerView}

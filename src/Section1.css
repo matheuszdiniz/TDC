@@ -1,0 +1,72 @@
+
+.section1 {
+background-image: url(https://renanferreiragtr.com.br/wp-content/uploads/2024/05/Design-sem-nome5.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 3px solid rgb(28, 202, 216);
+}
+
+.overlaySecbg {
+    background-color: rgba(34, 34, 34, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sectionRow{
+    margin: 10px 10px 10px 10px;
+}
+
+.section1 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.sectionRow p {
+    color: white;
+    font-size: 17px;
+    font-weight: light;
+}
+
+.sectionRow .text {
+    width: 600px;
+    max-width: 40vw;
+    margin-right: 25px;
+}
+.sectionRow .image {
+    width: 500px;
+    max-width: 40vw;
+    margin-left: 25px;
+}
+
+.image img {
+    max-width: 40vw;
+    width: 500px;
+}
+
+@media (max-width: 960px) { 
+    .sectionRow img {
+        display: none;
+        max-width: 0;
+    }
+    .sectionRow .image {
+        max-width: 0;
+    }
+    .sectionRow{
+        text-align: center;
+        margin: 0px;
+    }
+    .sectionRow .text {
+        max-width: 80vw;
+        margin-right: 0px;
+    }
+}

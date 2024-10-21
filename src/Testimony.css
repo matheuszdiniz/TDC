@@ -1,0 +1,80 @@
+.testimony {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 249, 246);
+    padding: 30px;
+    border-bottom: 3px solid rgb(28, 202, 216);
+    text-align: center;
+}
+
+.testimony h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.testimony h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: light;
+    margin-bottom: 50px;
+}
+
+.testimonyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 99%;
+}
+
+.testimonyRow {
+    width: 400px;
+    height: 340px;
+    margin: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonyVideo {
+    width: 350px;
+    height: 200px;
+    margin: 0px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonyVideo iframe {
+    width: 350px;
+    height: 200px;
+}
+
+.testimony .singButton {
+    padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 1150px) {
+    .testimonyContainer img {
+        max-width: 400px;
+        max-height: 280px;
+    }
+    .testimonyContainer iframe {
+        max-width: 300px;
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 960px) {
+    .testimonyContainer img {
+        max-width: 3000px;
+        max-height: 2000px;
+    }
+    .testimonyContainer {
+        flex-direction: column;
+    }
+}

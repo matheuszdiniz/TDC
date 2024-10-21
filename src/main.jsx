@@ -6,6 +6,8 @@ import { createRoot } from 'react-dom/client'
 import Slide from './Slide.jsx'
 import Header from './Hearder.jsx'
 import Explanations from './Explanations.jsx'
+import Section1 from './Section1.jsx'
+import Testimony from './Testimony.jsx'
 
 import { register } from 'swiper/element/bundle'
 
@@ -18,5 +20,7 @@ createRoot(document.getElementById('root')).render(
     <Header />
     <Slide />
     <Explanations />
+    <Section1 />
+    <Testimony />
   </StrictMode>
 )
