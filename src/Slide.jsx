@@ -1,10 +1,9 @@
 import './Slide.css'
 
-import { useState, useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { useState, useEffect } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js'
 import 'swiper/css/free-mode';
 import 'swiper/css/autoplay' 
-
 
 
 function App() {
