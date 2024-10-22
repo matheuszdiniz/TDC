@@ -10,6 +10,7 @@
 .Excontainer h1 {
     font-size: 50px;
     font-weight: bold;
+    padding-bottom: 50px;
 }
 
 .Exrow {
@@ -26,7 +27,7 @@
     border-bottom: 2px solid rgb(28, 202, 216);
     border-radius: 10px;
     margin: 0px 0px 50px 0px;
-    box-shadow: 2px 5px 2px 2px gray;
+    box-shadow: 2px 5px 2px 5px gray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +52,7 @@
 .blueIcon {
     width: 70px;
     height: 70px;
-    margin-top: 10px;
+    margin-top: -30px;
     border-radius: 50%;
     background-color: rgb(28, 202, 216);
     align-items: center;
@@ -62,7 +63,7 @@
 .blackIcon {
     width: 70px;
     height: 70px;
-    margin-top: 10px;
+    margin-top: -30px;
     border-radius: 50%;
     background-color: black;
     align-items: center;
@@ -108,6 +109,20 @@
         flex-direction: column;
     }
     .Exrow-item {
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 50px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Excontainer {
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+    }
+    .Excontainer h1 {
+        font-size: 25px;
+    }
+    .Exrow-item {
+        width: 350px;
+        height: 300px;
     }
 }

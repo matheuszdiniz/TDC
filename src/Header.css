@@ -117,3 +117,18 @@
         padding: 0px 50px 0px 50px;
     }
 }
+
+@media (max-width: 600px) {
+    #openVideo {
+        width: 95%;
+    }
+    .headertext { 
+        width: 95%;
+    }
+    .bgTitle {
+        font-size: 14px;
+    }
+    .callVideo {
+        font-size: 20px;
+    }
+}
