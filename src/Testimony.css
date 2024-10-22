@@ -70,6 +70,13 @@
 }
 
 @media (max-width: 960px) {
+    .testimony h1 {
+        font-size: 30px;
+    }
+    .testimony h2 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
     .testimonyContainer img {
         max-width: 3000px;
         max-height: 2000px;
