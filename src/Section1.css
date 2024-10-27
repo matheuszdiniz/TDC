@@ -69,4 +69,14 @@ border-bottom: 3px solid rgb(28, 202, 216);
         max-width: 80vw;
         margin-right: 0px;
     }
+    .section1 h1 {
+        font-size: 30px;
+    }
+    .section1 p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+
 }

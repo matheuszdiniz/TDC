@@ -4,6 +4,7 @@ function App() {
 
     return(
         <div className="Excontainer">
+            <div className="exOverlaybg">
             <h1>Porque Escolher o <span>TDC Plus:</span></h1>
             <div className="Exrow">
                 <div className="Exrow-item blackCard">
@@ -62,6 +63,7 @@ function App() {
                         <p>O TDC conta com um diferencial de tablatura e diagrama em tempo real no vídeo, otimizando o aprendizado.</p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )

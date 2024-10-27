@@ -1,0 +1,58 @@
+.centerSect3 {
+    background-image: url("https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-papel-de-espaco-de-design_53876-147801.jpg?t=st=1729640945~exp=1729644545~hmac=990ddd56b5daa423fbe3296adba9c413c62086cc9187c7024cf82ae8a963190e&w=1380");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(28, 202, 216);
+}
+
+.overlaybgSect3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.centerSect3 h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.section3 iframe {
+    padding: 10px;
+    width: 30vw;
+    aspect-ratio: 16/9;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin: 20px;
+    padding: 20px 50px 20px 50px;
+    box-shadow: 5px 5px 5px 5px rgb(218, 218, 218);
+    border-radius: 10px;
+    background-color: rgb(226, 226, 227);
+
+}
+.card h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.card h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card img {
+    width: 20%;
+}
+.cardText {
+    margin: 0px 0px 0px 50px;
+}

@@ -1,12 +1,20 @@
 .testimony {
+    background-image: url("https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-papel-de-espaco-de-design_53876-147801.jpg?t=st=1729640945~exp=1729644545~hmac=990ddd56b5daa423fbe3296adba9c413c62086cc9187c7024cf82ae8a963190e&w=1380");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(28, 202, 216);
+}
+
+.testimonyOverlay {
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: rgb(250, 249, 246);
-    padding: 30px;
-    border-bottom: 3px solid rgb(28, 202, 216);
+    background-color: rgba(255,255,255,0.7);
     text-align: center;
+    padding: 30px;
 }
+
 
 .testimony h1 {
     margin: 0;
@@ -77,9 +85,11 @@
         margin-top: 20px;
         font-size: 15px;
     }
-    .testimonyContainer img {
-        max-width: 3000px;
-        max-height: 2000px;
+    .testimonyRow {
+        max-width: 480px;
+        max-height: 280px;
+        margin: 0;
+        padding: 0;
     }
     .testimonyContainer {
         flex-direction: column;

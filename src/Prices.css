@@ -1,0 +1,178 @@
+.prices {
+    background-image: url("https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-papel-de-espaco-de-design_53876-147801.jpg?t=st=1729640945~exp=1729644545~hmac=990ddd56b5daa423fbe3296adba9c413c62086cc9187c7024cf82ae8a963190e&w=1380");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(28, 202, 216);
+}
+.overlaybgPrices {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+}
+
+.overlaybgPrices h1{
+    text-align: center;
+    width: 60%;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.pricesContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricesRow {
+    height: 450px;
+    width: 18vw;
+    margin: 0px 20px 0px 20px;
+    box-shadow: 2px 5px 2px 5px gray;
+    border-radius: 5px; 
+}
+
+.greenBorder{
+    border-top: 3px solid rgb(36, 218, 74);
+}
+
+.greenBg{
+    background-color: rgb(124, 233, 146);
+}
+
+.greenIcon {
+    background-color: rgb(36, 218, 74);
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBorder{
+    border-top: 3px solid rgb(56, 182, 255);
+}
+
+.blueBg{
+    background-color: rgb(136,211,255);
+}
+
+.blueIcon {
+    background-color: rgb(56, 182, 255);
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purpleBorder{
+    border-top: 3px solid rgb(111, 106, 170);
+}
+
+.purpleBg{
+    background-color: rgb(169, 166, 204);
+}
+
+.purpleIcon {
+    background-color: rgb(111, 106, 170);
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricesRowIcon svg {
+    width: 50px;
+    height: 50px;
+}
+
+.pricesDescription h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    display: inline;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+    width: 80%;
+}
+
+.pricesDescription p {
+    margin: 0;
+    color: rgb(65, 65, 65);
+    font-weight: 400;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+}
+
+.pricesDescription{
+    margin: 40px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricesRowIcon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.pricesDisplay {
+    text-align: center;
+    font-weight: 300;
+}
+
+.pricesDisplay h2 {
+    font-size: 30px;
+    color: rgb(109, 109, 109);
+    font-weight: 300;
+}
+
+.checkout {
+    width: 350px;
+    text-align: center;
+}
+.checkout h1{
+    color: rgb(65, 65, 65);
+    font-size: 45px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+.checkout h2 {
+    color: rgb(65, 65, 65);
+    margin: 0 0 30px 0;
+    font-weight: 400;
+    padding: 0;
+}
+.checkout span {
+    background-color: rgb(231, 29, 54);
+    border-radius: 15px;
+    font-weight: 300;
+    color: white;
+}
+.overlaybgPrices .singButton {
+    background-color: rgb(231, 29, 54);
+}

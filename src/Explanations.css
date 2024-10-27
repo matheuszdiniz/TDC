@@ -1,12 +1,18 @@
 .Excontainer {
+    background-image: url("https://img.freepik.com/fotos-gratis/plano-de-fundo-texturizado-de-papel-de-espaco-de-design_53876-147801.jpg?t=st=1729640945~exp=1729644545~hmac=990ddd56b5daa423fbe3296adba9c413c62086cc9187c7024cf82ae8a963190e&w=1380");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(28, 202, 216);
+}
+.exOverlaybg{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: rgb(250, 249, 246);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 30px;
-    border-bottom: 3px solid rgb(28, 202, 216);
+    background-size: cover;
 }
-
 .Excontainer h1 {
     font-size: 50px;
     font-weight: bold;
@@ -88,6 +94,7 @@
 
 .whiteCard {
     margin: 0px 30px 50px 30px;
+    background-color: white;
 }
 
 .whiteCard p {
@@ -116,13 +123,20 @@
 @media (max-width: 600px) {
     .Excontainer {
         padding: 0;
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 0px 0px;
     }
     .Excontainer h1 {
         font-size: 25px;
     }
     .Exrow-item {
         width: 350px;
-        height: 300px;
+        height: 200px;
+    }
+    .textContainer span {
+        font-size: 20px;  
+    }
+    
+    .textContainer p {
+        font-size: 15px; 
     }
 }
