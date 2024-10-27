@@ -22,7 +22,7 @@ function App () {
                     </div>
                     <div className='pricesRow blueBorder'>
                         <div className='pricesRowIcon'>
-                            <div className='blueIcon'>
+                            <div className='bluePriceIcon'>
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_429_11095)"> <path d="M12.5 17V7L10.5 9" stroke="#ffffff" stroke-width="1.464" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="12" cy="12" r="9" stroke="#ffffff" stroke-width="1.464" stroke-linecap="round" stroke-linejoin="round"></circle> </g> <defs> <clipPath id="clip0_429_11095"> <rect width="24" height="24" fill="white"></rect> </clipPath> </defs> </g></svg>
                             </div>
                         </div>
