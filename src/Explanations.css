@@ -24,11 +24,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 99%;
+    width: 95vw;
 }
 
 .Exrow-item {
-    width: 400px;
+    width: 20vw;
     height: 340px;
     border-bottom: 2px solid rgb(28, 202, 216);
     border-radius: 10px;
@@ -129,7 +129,7 @@
         font-size: 25px;
     }
     .Exrow-item {
-        width: 350px;
+        width: 60vw;
         height: 200px;
     }
     .textContainer span {

@@ -12,6 +12,7 @@ import Section2 from './Section2.jsx'
 import Section3 from './Section3.jsx'
 import Professor from './Professor.jsx'
 import Prices from './Prices.jsx'
+import Footer from './Footer.jsx'
 
 import { register } from 'swiper/element/bundle'
 
@@ -30,5 +31,6 @@ createRoot(document.getElementById('root')).render(
     <Section3 />
     <Professor />
     <Prices />
+    <Footer />
   </StrictMode>
 )

@@ -15,7 +15,7 @@
 
 .headertext {
     padding-top: 120px;
-    width: 80%;
+    width: 80vw;
     text-align: center;
 }
 
@@ -80,7 +80,7 @@
 }
 
 #openVideo {
-    width: 80%;
+    width: 80vw;
 }
 
 #openVideo iframe {
@@ -120,10 +120,10 @@
 
 @media (max-width: 600px) {
     #openVideo {
-        width: 95%;
+        width: 80vw;
     }
     .headertext { 
-        width: 95%;
+        width: 80vw;
     }
     .bgTitle {
         font-size: 14px;

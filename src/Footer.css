@@ -1,0 +1,68 @@
+.footer {
+    background-image: url(https://i0.wp.com/renanferreiragtr.com.br/wp-content/uploads/2024/01/Design-sem-nome-3.jpg?fit=1200%2C800&ssl=1);
+
+    && h1 {
+        font-size: 50px;
+        color: white;
+    }
+    && a {
+        margin-top: 30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    && p {
+        color: white;
+    }
+
+    && h3 {
+        color: white;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+}
+
+.overlaybgFooter {
+    background-color: rgba(43, 43, 43, 0.8);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Collapsible {
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 12px 0 12px 0;
+    text-align: left;
+
+    && span {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-left: 20px;
+        
+    }
+
+    && p {
+        color: white;
+        margin-left: 20px;
+    }
+}
+
+.Collapsible span:hover {
+        color: rgb(28, 202, 216); 
+        cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        && h1 {
+            font-size: 25px;
+        }
+    }
+}

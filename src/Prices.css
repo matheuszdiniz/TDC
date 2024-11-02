@@ -16,13 +16,13 @@
 
 .overlaybgPrices h1{
     text-align: center;
-    width: 60%;
+    width: 60vw;
     padding-top: 50px;
     font-size: 50px;
 }
 
 .pricesContainer{
-    width: 80%;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +33,8 @@
     height: 450px;
     width: 18vw;
     margin: 0px 20px 0px 20px;
-    box-shadow: 2px 5px 2px 5px gray;
+    background-color: rgba(241, 237, 237, 0.5);
+    box-shadow: 2px 2px 2px 2px gray;
     border-radius: 5px; 
 }
 
@@ -98,8 +99,8 @@
 }
 
 .pricesRowIcon svg {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .pricesDescription h1 {
@@ -151,7 +152,7 @@
 }
 
 .checkout {
-    width: 350px;
+    width: 40vw;
     text-align: center;
 }
 .checkout h1{
@@ -175,4 +176,6 @@
 }
 .overlaybgPrices .singButton {
     background-color: rgb(231, 29, 54);
+    padding: 5px 35px 5px 35px;
+    font-size: 35px;
 }
